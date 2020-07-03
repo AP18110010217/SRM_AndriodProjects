@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">intest</string>
+    <string-array name="districts" >
+        <item>Select District</item>
+        <item>Anantapur</item>
+        <item>Guntur</item>
+        <item>Krishna</item>
+        <item>Vishakapatnam</item>
+    </string-array>
+
+    <string-array name="Anantapur_Mandals">
+        <item>Select Mandal</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+    </string-array>
+
+    <string-array name="Guntur_Mandals">
+        <item>G1</item>
+        <item>G2</item>
+        <item>G3</item>
+        <item>G4</item>
+    </string-array>
+
+    <string-array name="Krishna_Mandals">
+        <item>K1</item>
+        <item>K2</item>
+        <item>K3</item>
+        <item>K4</item>
+    </string-array>
+
+    <string-array name="Vishakapatnam_Mandals">
+        <item>V1</item>
+        <item>V2</item>
+        <item>V3</item>
+        <item>V4</item>
+    </string-array>
+
+</resources>

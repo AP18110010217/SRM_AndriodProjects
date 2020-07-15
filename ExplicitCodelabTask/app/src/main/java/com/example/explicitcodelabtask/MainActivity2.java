@@ -9,21 +9,23 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
-    TextView tv1;
     EditText et1;
+    TextView tv1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        tv1=findViewById(R.id.tv1);
         et1=findViewById(R.id.msg2);
-        String s2=getIntent().getStringExtra("data received");
-        tv1.setText("Msgreply:"+s2);
+        tv1=findViewById(R.id.tv1);
+
+        String s= getIntent().getStringExtra("mydata");
+        tv1.setText("Message:"+s);
     }
+
     public void reply(View view) {
-        String data = et1.getText().toString();
-        Intent i = new Intent(MainActivity2.this, MainActivity.class);
-        i.putExtra("mydata", data);
+        String data= et1.getText().toString();
+        Intent i = new Intent(MainActivity2.this,MainActivity.class);
+        i.putExtra( "data",data);
         startActivity(i);
     }
 }

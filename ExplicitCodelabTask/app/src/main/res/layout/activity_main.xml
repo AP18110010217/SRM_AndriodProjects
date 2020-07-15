@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,21 +10,25 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Message reply received"
-        android:id="@+id/tv"
-        android:textSize="30dp"/>
-
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter the Message"
-            android:id="@+id/msg"
-            android:inputType="text"/>
-
-        <Button
-        android:layout_width="140dp"
+        android:text="Reply Recieved:"
+        android:textColor="#FF5722"
+        android:textSize="25sp"
+        android:id="@+id/tv"/>
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="305dp"
         android:layout_height="wrap_content"
-        android:text="send message"
-        android:onClick="sendmessage"/>
+        android:hint="enter message"
+        android:inputType="text" />
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:background="#FFEB3B"
+        android:textColor="#E91E63"
+        android:text="send" />
+
+
+
 
 </LinearLayout>

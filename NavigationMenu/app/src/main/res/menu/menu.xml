@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:title="Notification"
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        >
+
+        <menu>
+            <item
+                android:id="@+id/password"
+                android:title="Password"/>
+            <item
+                android:id="@+id/security"
+                android:title="Security"/>
+        </menu>
+    </item>
+
+    <item
+        android:title="Design"
+        android:id="@+id/design"
+        android:icon="@drawable/ic_baseline_border_outer_24"/>
+
+
+</menu>

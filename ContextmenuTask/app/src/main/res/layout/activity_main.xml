@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTEXT MENU"
+            android:layout_margin="20dp"
+            android:textSize="40sp"
+            android:textColor="#FF5722"
+            android:background="#FFEB3B"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/title"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AndriodAppDevelopment"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="#3F51B5"
+            android:background="#FFFFFF"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/intern1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PythonProgramming"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="#3F51B5"
+            android:background="#FFFFFF"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/intern2"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebDesignUsingJS"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="#3F51B5"
+            android:background="#FFFFFF"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/intern3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebDesignUsingDjango"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="#3F51B5"
+            android:background="#FFFFFF"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/intern4"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="InternetOfThings"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textColor="#3F51B5"
+            android:background="#FFFFFF"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/intern5"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Longpress the Course to know more Details.."
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#FF5722"
+            android:gravity="center"
+            android:fontFamily="sans-serif"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Long Press "
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="#E91E63"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/button"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
